@@ -16,12 +16,12 @@ export default function (injectDeps, {FlowRouter}) {
   //   }
   // });
   
-  /*FlowRouter.route('/', {
+  FlowRouter.route('/', {
     name: 'Landing Page',
     action() {
       mount(MainLayoutCtx, {
         content: () => (<Home />)
       });
     }
-  });*/
+  });
 }
